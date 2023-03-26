@@ -1,0 +1,52 @@
+.container__login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  box-shadow: 0px 0px 8px 2px #d1cfcf;
+}
+
+.login__title {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.container__login__inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.login__username__input,
+.login__room__input {
+  padding: 5px;
+}
+
+.login__button__join {
+  padding: 5px 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px rgb(143, 141, 141);
+  border: none;
+  border-radius: 5px;
+}
+
+.container__show__userexist {
+  display: grid;
+  place-items: center;
+  width: 400px;
+  height: 120px;
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 2px rgb(143, 141, 141);
+  position: relative;
+}
+
+.icon__closemodal__userexist {
+  position: absolute;
+  right: 1%;
+  top: 2%;
+  cursor: pointer;
+}
